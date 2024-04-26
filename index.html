@@ -11,12 +11,13 @@
         <img id="logo" src="logo.svg"/>
         <h1>Roman Numeral<br/>Coverter</h1>
         <div class="input-container">
-            <form>
+            <form id="roman-converter-form">
                 <label for="number">Enter a Number:</label>
-                <input type="number" id="number" min="0" max="3999" required/>
+                <input type="number" id="number"/>
                 <button type="submit" id="submit-button">Convert</button>
             </form>
         </div>
+        <div class="output-container hidden"></div>
     </div>
     <script src="script.js"></script>
 </body>

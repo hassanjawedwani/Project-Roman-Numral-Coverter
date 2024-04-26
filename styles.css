@@ -37,7 +37,8 @@ body {
     margin-bottom: 25px;
 }
 
-.input-container {
+.input-container,
+.output-container {
     background-color: rgba(255, 255, 255, 0.24);
     width: 90%;
     border: 4px solid var(--font-color);
@@ -71,4 +72,13 @@ label {
     border: 2px solid var(--button-border-color);
     margin-bottom: 25px;
     
+}
+
+.output-container {
+    font-size: 30px;
+    padding: 8px;
+}
+
+.hidden {
+    display: none;
 }
